@@ -1,5 +1,5 @@
 # Theme metadata
-name = "ian-theme002"
+name = "ian-theme001"
 
 # Is theme light or dark?
 [light]
@@ -25,5 +25,7 @@ menu_text_active = "#ff6e40"
 menu_title = "#ff6e40"
 
 # Home sections
-home_section_odd = "rgb(255, 255, 255)"
-home_section_even = "rgb(235, 235, 235)"
+# home_section_odd = "rgb(255, 255, 255)"
+# home_section_even = "rgb(235, 235, 235)"
+home_section_odd = "#e9e8cd"
+home_section_even = "#e9e8dc"
