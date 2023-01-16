@@ -7,21 +7,26 @@ main:
   - name: Home
     url: '#about'
     weight: 10
-  - name: Posts
-    url: '#posts'
-    weight: 20
+    identifier: submenu_bio
+    # sub-menu
+  - name: biosketch & CV
+    url: '#about'
+    weight: 11
+    parent: submenu_bio
+  - name: experience
+    url: '#experience'
+    weight: 12
+    parent: submenu_bio
+  - name: contact Ian
+    url: '#contact'
+    weight: 13
+    parent: submenu_bio
   - name: Projects
     url: '#projects'
-    weight: 30
-  - name: Talks
-    url: '#talks'
-    weight: 40
+    weight: 20
   - name: Publications
     url: '#featured'
-    weight: 50
-  - name: Contact
-    url: '#contact'
-    weight: 60
+    weight: 30
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.

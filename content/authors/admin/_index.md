@@ -1,47 +1,50 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Ian Hambleton
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Ian
+last_name: Hambleton
 
 # Status emoji
 status:
-  icon: ☕️
+  icon:
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Professor of Biostatistics and Informatics
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: The University of the West Indies
+    url: https://www.uwi.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+    - data handling technologies 
+    - data curation and sharing
+    - systematic review methodology
+    - data visualization
+    - health inequalities
+    - health in small islands
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Statistical Epidemiology
+      institution: University of Southampton, UK
+      year: 2002
+    - course: MSc in Biometry
+      institution: University of Reading, UK
+      year: 1995
+    - course: BA in Applied Mathematics
+      institution: Brunel University, UK
+      year: 1992
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -50,35 +53,46 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: 'mailto:ian.hambleton@cavehill.uwi.edu'
+
+  - icon: google-scholar 
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=8IgqbTUAAAAJ&hl=en
+
+  - icon: orcid 
+    icon_pack: ai
+    link: https://orcid.org/0000-0002-5638-9794
+
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/UWI-CaribData
+
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
+    link: https://www.linkedin.com/in/ian-hambleton-statistician/
+
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: uploads/2020Aug_Hambleton_bio.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'ian.hambleton@cavehill.uwi.edu'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+PhD-level statistician / data scientist.
+
+I have worked as a statistician for 25 years in Europe, Africa, and the Caribbean. I organise project data handling and analytics, including the management of solutions for robust and secure online data collection. I have published around 200 peer-reviewed articles covering a range of chronic and infectious diseases. Working with colleagues, I have secured over 14 million US dollars of funding for health-related research. 
 {style="text-align: justify;"}
+
+I am committed to open-access data, and am developing an infrastructure for collecting and sharing Caribbean research data. I work with a range of Caribbean and international agencies involved in health and wellness. 
+{style="text-align: justify;"}
+
+#### Download CV
+Two CV flavours, long and short.
+|File|Description|Download|
+|---|---|---|
+|Full CV|The long one.|{{% staticref "uploads/2020Aug_Hambleton_CV.pdf" "newtab" %}}pdf{{% /staticref %}}|
+|Brief CV|The short one.|{{% staticref "uploads/2020Aug_Hambleton_bio.pdf" "newtab" %}}pdf{{% /staticref %}}|
