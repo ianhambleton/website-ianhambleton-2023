@@ -82,17 +82,5 @@ email: 'ian.hambleton@cavehill.uwi.edu'
 highlight_name: true
 ---
 
-PhD-level statistician / data scientist.
-
-I have worked as a statistician for 25 years in Europe, Africa, and the Caribbean. I organise project data handling and analytics, including the management of solutions for robust and secure online data collection. I have published around 200 peer-reviewed articles covering a range of chronic and infectious diseases. Working with colleagues, I have secured over 14 million US dollars of funding for health-related research. 
+**PhD-level statistician / data scientist.** I have worked as a statistician for 25 years in Europe, Africa, and the Caribbean. I organise project data handling and analytics, including the management of solutions for robust and secure online data collection. I have published around 200 peer-reviewed articles covering a range of chronic and infectious diseases. Working with colleagues, I have secured over 14 million US dollars of funding for health-related research. I am committed to open-access data, and am developing an infrastructure for collecting and sharing Caribbean research data. I work with a range of Caribbean and international agencies involved in health and wellness. 
 {style="text-align: justify;"}
-
-I am committed to open-access data, and am developing an infrastructure for collecting and sharing Caribbean research data. I work with a range of Caribbean and international agencies involved in health and wellness. 
-{style="text-align: justify;"}
-
-#### Download CV
-Two CV flavours, long and short.
-|File|Description|Download|
-|---|---|---|
-|Full CV|The long one.|{{% staticref "uploads/2020Aug_Hambleton_CV.pdf" "newtab" %}}pdf{{% /staticref %}}|
-|Brief CV|The short one.|{{% staticref "uploads/2020Aug_Hambleton_bio.pdf" "newtab" %}}pdf{{% /staticref %}}|

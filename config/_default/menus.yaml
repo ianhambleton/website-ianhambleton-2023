@@ -9,17 +9,21 @@ main:
     weight: 10
     identifier: submenu_bio
     # sub-menu
-  - name: biosketch & CV
-    url: '#about'
+  - name: download biosketch & CV
+    url: '#cv'
     weight: 11
     parent: submenu_bio
-  - name: experience
+  - name: work history
     url: '#experience'
     weight: 12
     parent: submenu_bio
+  - name: committee work
+    url: '#committees'
+    weight: 13
+    parent: submenu_bio
   - name: contact Ian
     url: '#contact'
-    weight: 13
+    weight: 14
     parent: submenu_bio
   - name: Projects
     url: '#projects'

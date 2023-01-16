@@ -15,7 +15,16 @@ sections:
       # Override your bio text from `authors/admin/_index.md`?
       text:
 
-
+  - block: markdown
+    id: cv
+    content:
+      title: Download
+      subtitle: Two CV flavours, long and short
+      text: '{{< table path="cv-download.csv" header="true" caption="false" caption="" >}}'
+    design:
+      # See Page Builder docs for all section customization options.
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '2'
 
   - block: experience
     id: experience
@@ -95,9 +104,10 @@ sections:
 
 
   - block: accomplishments
+    id: committees
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: ' '
+      title: Employment and Committee Work
       subtitle: The Committee Appointments...
       # Date format: https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -236,7 +246,7 @@ sections:
         featured_only: true
     design:
       columns: '2'
-      view: list
+      view: compact
 
 
   - block: collection
@@ -255,53 +265,37 @@ sections:
       view: citation
 
 
-
-
   - block: contact
     id: contact
     content:
-      title: Contact
+      title: Contact Me
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        Email me using the form below. Give me a day to get back to you.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
-      address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+      email: ian.hambleton@cavehill.uwi.edu
+      appointment_url: ''
       contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
         - icon: video
           icon_pack: fas
           name: Zoom Me
           link: 'https://zoom.com'
-      # Automatically link email and phone or display as text?
+    # Automatically link email and phone or display them just as text?
       autolink: true
-      # Email form provider
+      # Choose an email form provider (netlify/formspree)
       form:
         provider: netlify
         formspree:
-          id:
+          # If using Formspree, enter your Formspree form ID
+          id: ''
         netlify:
           # Enable CAPTCHA challenge to reduce spam?
           captcha: false
+      # Coordinates to display a map - set your map provider in `params.yaml`
+      coordinates:
+        latitude: '37.4275'
+        longitude: '-122.1697'
     design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '2'
 ---
