@@ -206,6 +206,7 @@ sections:
     id: projects
     content:
       title: Projects
+      subtitle: My involvement in recent funded projects. Usually offering statistical and data handling support.
       filters:
         folders:
           - project
@@ -229,7 +230,7 @@ sections:
           tag: data handling
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
+      columns: '2'
       view: masonry
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
