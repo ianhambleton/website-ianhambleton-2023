@@ -22,7 +22,7 @@ organizations:
     url: https://www.uwi.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research themes include data handling technologies, systematic review methods, health inequalities, health in small islands.
 
 # Interests to show in About widget
 interests:

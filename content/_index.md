@@ -117,6 +117,37 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+
+        - certificate_url: 
+          date_end: '2022-01-01'
+          date_start: '2021-01-01'
+          description: |2-
+            Review of late-stage implementation research strategies for proven-effective prevention and treatment interventions in people living with HIV in low- and middle-income countries (LMICs) and Small Island Developing States (SIDS).  
+          organization: National Institutes for Health, National Heart Lung, and Blood Institute (NHLBI)
+          organization_url: https://www.nhlbi.nih.gov/
+          title: Statistician on Data Safety Monitoring Board (DSMB) for HLB SIMPLe.
+          url: ''
+
+        - certificate_url: 
+          date_end: '2021-12-31'
+          date_start: '2020-01-01'
+          description: |2-
+            Development of PAHO strategy for Public Health implications of AI / Digital Transformation in the Americas.    
+          organization: Pan American Health Organization, PAHO
+          organization_url: https://paho.org/
+          title: Member of Expert Committee. Digital Transformation and Data Science in the Americas
+          url: ''
+
+        - certificate_url: 
+          date_end: '2022-12-31'
+          date_start: '2020-01-01'
+          description: |2-
+            Presentation of COVID-19 outbreak surveillance to Council.  
+          organization: CARICOM, Council for Human and Social Development (COHSOD)
+          organization_url: https://caricom.org/organs_and_bodies/the-council-for-human-and-social-development-cohsod/
+          title: Member of Technical Advisory group for COVID-19 outbreak surveillance and modelling
+          url: ''
+
         - certificate_url: 
           date_end: ''
           date_start: '2018-01-01'
@@ -126,7 +157,6 @@ sections:
           organization_url: https://medicine.yale.edu/intmed/genmed/tcc/
           title: Chair, Yale-TCC Data Sharing Working Group (Ongoing).
           url: ''
-
 
         - certificate_url: 
           date_end: ''
