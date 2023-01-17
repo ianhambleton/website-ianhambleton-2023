@@ -4,7 +4,7 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
+  - name: About me
     url: '#about'
     weight: 10
     identifier: submenu_bio
@@ -21,7 +21,7 @@ main:
     url: '#committees'
     weight: 13
     parent: submenu_bio
-  - name: contact Ian
+  - name: contact me
     url: '#contact'
     weight: 14
     parent: submenu_bio
@@ -31,7 +31,12 @@ main:
   - name: Publications
     url: '#featured'
     weight: 30
-
+  - name: COVID-19
+    url: 'covid19/'
+    weight: 60
+  - name: CaribData
+    url: 'caribdata/'
+    weight: 70  
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
 #  - name: CV

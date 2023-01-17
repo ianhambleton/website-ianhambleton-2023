@@ -1,0 +1,6 @@
+﻿,Type,Description,Download
+,Press Release,Brief text summarizing the numbers of cases and deaths across the CARICOM region in the past week.,"{{% staticref ""uploads/caricom_week_summary.pdf"" ""newtab"" %}}pdf{{% /staticref %}}"
+,Slides,Slide presentation summarising the current outbreak situation across the 20 CARICOM members.,"{{% staticref ""uploads/COVID-slides-01.pdf"" ""newtab"" %}}pdf{{% /staticref %}}"
+,Briefing,Weekly cases and deaths for 20 CARICOM territories combined.,"{{% staticref ""uploads/briefing_CAR.pdf"" ""newtab"" %}}pdf{{% /staticref %}}"
+,Profile,"Case rate over time (per 100,000 people) for 20 CARICOM territories combined.","{{% staticref ""uploads/caserate_CAR.pdf"" ""newtab"" %}}pdf{{% /staticref %}}"
+,Heatmaps,"Heatmaps for all CARICOM territories, showing daily and cumulative totals of confirmed cases and confirmed deaths. And we present a heatmap of outbreak case rates (per 100,000 people) in each country.","{{% staticref ""uploads/heatmaps_CARICOM.pdf"" ""newtab"" %}}pdf{{% /staticref %}}"
