@@ -44,7 +44,7 @@ tags:
 - '"mixed methods"'
 categories: []
 date: '2023-04-01'
-lastmod: '2023-04-01'
+lastmod: 2023-04-01T22:07:42-04:00
 featured: false
 draft: false
 
